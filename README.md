@@ -20,12 +20,12 @@
 This project aims to classify chicken faecal images into healthy or coccidiosis-affected categories using deep learning techniques. Coccidiosis is a common and harmful intestinal disease in poultry, and early detection is crucial for effective intervention. The project includes data preprocessing, model architecture design, model training, and a Flask web application for real-time disease classification.
 
 ## Project Structure
-/artifacts: Contains the dataset and data preprocessing and trained machine learning model.
-/src/components: Include all the components like data_ingestion, evaluation, prepare_base_model, prepare_callback, and training.
-/src/pipeline: Predice pipeline steps added
-app.py: Includes the Flask web application and API.
-utils.py: Include all the common functions used in a project.
-requirements.txt: List of dependencies required to run the project.
+- /artifacts: Contains the dataset and data preprocessing and trained machine learning model.
+- /src/components: Include all the components like data_ingestion, evaluation, prepare_base_model, prepare_callback, and training.
+- /src/pipeline: Predice pipeline steps added
+- app.py: Includes the Flask web application and API.
+- utils.py: Include all the common functions used in a project.
+- requirements.txt: List of dependencies required to run the project.
 
 ## Install the required packages:
 ```
